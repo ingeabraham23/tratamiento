@@ -1,0 +1,103 @@
+@media only screen and (max-width: 600px) {
+  .tabla-receta {
+    border-collapse: collapse;
+    background-color: #e1a7ca;
+    border: 1px solid rgb(132, 0, 255);
+    width: 100%;
+  }
+
+  .column-horarios {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  .separador {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .fila-encabezado {
+    background-color: #877fd7;
+  }
+
+  .fila-pie {
+    background-color: #877fd7;
+    text-align: center;
+  }
+
+  .column-dosis {
+    border: 1px solid black;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .numero-dosis {
+    font-size: 10px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .column-medicamento {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .column-sirve {
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .contenedor-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contenedor-inputs input {
+    width: 90%;
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  .boton-agregar {
+    background-color: rgb(104, 216, 0);
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+  }
+
+  .boton-capturar {
+    background-color: rgb(255, 136, 0);
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+  }
+
+  .boton-guardar {
+    background-color: rgb(136, 255, 0);
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+  .contenedor-botones {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+}

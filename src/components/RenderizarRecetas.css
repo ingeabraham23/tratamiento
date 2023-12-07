@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+    .contenedor {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contenedor table{
+        border-collapse: collapse;
+        background-color: #e1a7ca;
+        border: 1px solid rgb(132, 0, 255);
+        width: 100%;
+      }
+
+    .tabla-receta-renderizada {
+        border-collapse: collapse;
+        background-color: #e1a7ca;
+        border: 1px solid rgb(132, 0, 255);
+        width: 100%;
+      }
+  
+    .contenedor select {
+      width: 100%;
+      height: 30px;
+      margin: 3px;
+    }
+  
+    .boton-capturar {
+        background-color: rgb(255, 136, 0);
+        padding: 5px;
+        font-size: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+        color: white;
+        margin: 5px;
+      }
+  }

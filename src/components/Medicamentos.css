@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px) {
+    .contenedor-inputs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor-dosis{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-inputs textarea{
+        width: 90%;
+    }
+
+    .contenedor-dosis select{
+        width: 100%;
+        height: 30px;
+    }
+
+    input{
+        width: 90%;
+    }
+
+    .boton-guardar{
+        background-color: rgb(136, 255, 0);
+        padding: 5px;
+        font-size: 15px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+
+}
